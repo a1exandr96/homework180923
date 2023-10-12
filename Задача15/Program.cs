@@ -4,7 +4,7 @@
 // 1 -> нет
 
 Console.WriteLine("Введи номер дня недели");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 
 if (num == 6 || num == 7)
 {
