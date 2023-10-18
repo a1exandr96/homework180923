@@ -4,9 +4,9 @@
 // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введи первое число");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введи второе число");
-int b = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine()!);
 int max = 0;
 int min = 0;
 

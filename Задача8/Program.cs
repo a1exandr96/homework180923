@@ -3,7 +3,7 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Enter num");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 int res = 1;
 
 if (res == 1)
